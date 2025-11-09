@@ -1,0 +1,38 @@
+body {
+    background-image: linear-gradient(to bottom, #0b132b, #0e1933, #121f3b, #162643, #192c4c, #34375b, #4f4268, #694d74, #9c617e, #c67c7f, #e39f81, #efc88b);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #EFC88B;
+    text-align: center;
+}
+
+img {
+    border-radius: 75px;
+    margin-top: 20px;
+    border-color: #EFC88B;
+    border-style: solid;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+a {
+    background-color: #1d3557;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    display: block;
+    text-align: center;
+    margin: 10px auto;
+    color: #EFC88B;
+    text-decoration: none;
+    max-width: 500px;
+    transition: all 0.425s, transform 0.1s;
+}
+
+a:hover {
+    background-color: #EFC88B;
+    color: #1d3557;
+}
